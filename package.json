@@ -7,7 +7,8 @@
     "format": "prettier --write --single-quote --trailing-comma es5",
     "format:all": "yarn format \"./**/*.js\"",
     "precommit": "lint-staged",
-    "test": "jest"
+    "test": "jest",
+    "semantic-release": "semantic-release"
   },
   "license": "MIT",
   "peerDependencies": {
@@ -18,7 +19,7 @@
     "jest": "^22.0.4",
     "lint-staged": "^6.0.0",
     "prettier": "^1.9.2",
-    "semantic-release": "^15.5.0",
+    "semantic-release": "^15.13.19",
     "semantic-release-github-pr": "^5.0.3"
   },
   "dependencies": {
